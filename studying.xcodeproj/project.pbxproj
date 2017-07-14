@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		597A2D231F1521450021A1BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 597A2D221F1521450021A1BF /* main.cpp */; };
+		59F56BD51F18742F0066D19F /* boj2438.c in Sources */ = {isa = PBXBuildFile; fileRef = 59F56BD41F18742F0066D19F /* boj2438.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,10 @@
 
 /* Begin PBXFileReference section */
 		597A2D1F1F1521450021A1BF /* studying */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = studying; sourceTree = BUILT_PRODUCTS_DIR; };
-		597A2D221F1521450021A1BF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		59F56BCD1F1872440066D19F /* boj2557.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = boj2557.c; sourceTree = "<group>"; };
+		59F56BCF1F18732B0066D19F /* boj1000.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = boj1000.c; sourceTree = "<group>"; };
+		59F56BD11F1873990066D19F /* boj1001.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = boj1001.c; sourceTree = "<group>"; };
+		59F56BD41F18742F0066D19F /* boj2438.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = boj2438.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,10 @@
 		597A2D211F1521450021A1BF /* studying */ = {
 			isa = PBXGroup;
 			children = (
-				597A2D221F1521450021A1BF /* main.cpp */,
+				59F56BCD1F1872440066D19F /* boj2557.c */,
+				59F56BCF1F18732B0066D19F /* boj1000.c */,
+				59F56BD11F1873990066D19F /* boj1001.c */,
+				59F56BD41F18742F0066D19F /* boj2438.c */,
 			);
 			path = studying;
 			sourceTree = "<group>";
@@ -119,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				597A2D231F1521450021A1BF /* main.cpp in Sources */,
+				59F56BD51F18742F0066D19F /* boj2438.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +254,7 @@
 				597A2D281F1521450021A1BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
